@@ -2,6 +2,9 @@ package Class_one;
 
 public class DataType {
     public static void main(String[] args) {
+
+        //=====> primitive type data <=====\\
+
         // byte take 1 byte == 8 bits ; It’s an 8-bit signed integer, meaning it can represent values
         // from -128 to 127 [2^8 / 2] == 127
         //byte age = 20, id = 10; // single data type takes multiple variable
@@ -33,6 +36,18 @@ public class DataType {
         long population = 7830000000L;    //The default value of a long variable is 0L.
         System.out.println("Its an long value\n" + population);
 
+        //=====> reference type data in Java <=====\\
+//        Class Types
+//        Array Types
+//        Interface Types
+//        Enum Types
+//        Annotation Types
+//        String Types (String object)
+//        Lambda Expressions (Functional interfaces)
+
+        //String in Java is a class, which means every String literal (like "asad") is a String object.
+        String name = "asad";
+        System.out.println( "this is a string value \n" + name);
 
     }
 }
