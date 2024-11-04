@@ -2,6 +2,8 @@ package Class_one;
 
 public class DataCasting {
     public static void main(String[] args){
+        //1. Widening Type Casting
+        //2. Narrowing Type Casting
 
         //int number to double number;
         int myInt = 9;
