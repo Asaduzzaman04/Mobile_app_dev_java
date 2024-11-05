@@ -12,6 +12,5 @@ public class UserInput {
         int userBirthYearIn = userBirthYear.nextInt(); // take value form users putted
         int userAge = currentYear - userBirthYearIn;
         System.out.println( "your age is =>  " + userAge);
-
     }
 }
